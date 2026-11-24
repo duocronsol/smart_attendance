@@ -171,11 +171,6 @@ before_install = "smart_attendance.install.dependency.before_install"
 # before_tests = "smart_attendance.install.before_tests"
 
 # Overriding Methods
-override_whitelisted_methods = {
-    "smart_attendance.smart_attendance.api.face_verification.verify_face":
-    "smart_attendance.smart_attendance.api.face_verification.verify_face"
-}
-
 # ------------------------------
 #
 # override_whitelisted_methods = {
