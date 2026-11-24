@@ -8,7 +8,7 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["frappe/erpnext", "frappe/hrms"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -171,11 +171,6 @@ before_install = "smart_attendance.install.dependency.before_install"
 # before_tests = "smart_attendance.install.before_tests"
 
 # Overriding Methods
-override_whitelisted_methods = {
-    "smart_attendance.smart_attendance.api.face_verification.verify_face":
-    "smart_attendance.smart_attendance.api.face_verification.verify_face"
-}
-
 # ------------------------------
 #
 # override_whitelisted_methods = {
